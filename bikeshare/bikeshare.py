@@ -77,6 +77,7 @@ def load_data(city, month, day):
 def raw_data(df):
     """Displays raw data."""
 
+    pd.set_option('display.max_columns',200)
     index = 0
     while True:
         try:
